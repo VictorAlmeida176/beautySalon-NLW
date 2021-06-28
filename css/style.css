@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container main .nomes button {
+  width: 218px;
+  height: 50px;
+  background-color: #a152ef;
+  color: white;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+header {
+  border-bottom: 2px solid #e4e4e4;
+  height: 50px;
+  font-family: "DM Sans", sans-serif;
+}
+
+header .container h1 span {
+  color: #a152ef;
+}
+
+header .container nav a span {
+  border-bottom: #a152ef;
+}
+
+header .container nav a {
+  text-decoration: none;
+  color: #30220e;
+  margin-left: 20px;
+}
+
+header .container nav a:hover {
+  color: #a152ef;
+  height: 20px;
+  width: 20px;
+  border-bottom: 1px solid #a152ef;
+}
+
+#select {
+  color: #a152ef;
+}
+
+.container section main {
+  width: 25rem;
+}
+
+.container main .nomes {
+  margin-top: 60px;
+}
+
+section {
+  width: 100%;
+}
+
+.container main .nomes h1 {
+  color: #0f241d;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container main .nomes h3 {
+  color: #767676;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: "DM Sans", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.fundo {
+  height: 250px;
+  width: 358px;
+  background-color: #bea7d8;
+  margin: 60px auto;
+  margin-left: 100px;
+  position: static;
+}
+
+.imagem {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  top: 40px;
+  left: -10px;
+}
+
+.container section .fundo .imagem img {
+  height: 250px;
+  width: 330px;
+}
+
+footer {
+  width: 100vw;
+  height: 6.15rem;
+  background-color: #a152ef;
+  margin-top: 3rem;
+  font-family: "DM Sans", sans-serif;
+}
+
+footer .container .left-infoo span {
+  color: white;
+}
+
+footer .container .left-infoo h1 {
+  margin-bottom: 10px;
+}
+
+footer .container .left-infoo p {
+  color: white;
+  margin-top: 3px;
+}
+
+footer .container .right-infoo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .right-infoo img {
+  margin-left: 15px;
+}

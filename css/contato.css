@@ -1,0 +1,63 @@
+section .container .left-info {
+  width: 50%;
+  height: 100%;
+}
+
+section .container .right-info {
+  width: 50%;
+  height: 100%;
+}
+
+section .container .left-info h1 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 7rem;
+}
+
+section .container .left-info p {
+  font-family: "DM Sans", sans-serif;
+  color: #767676;
+  margin-top: 0.5rem;
+}
+
+section .container .left-info .botao {
+  width: 14rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #a152ef;
+  margin-top: 1rem;
+}
+section .container .left-info .botao p {
+  font-family: "DM Sans", sans-serif;
+  margin: 0px;
+  color: white;
+}
+
+section .container .right-info .dados {
+  width: 100%;
+  height: 80%;
+  margin-top: 7rem;
+}
+
+section .container .right-info .dados .logos {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+section .container .right-info .dados .logos p {
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+
+  color: #767676;
+}
+
+footer {
+  width: 100vw;
+  height: 6.15rem;
+  background-color: #a152ef;
+  margin-top: 7rem;
+  font-family: "DM Sans", sans-serif;
+}
